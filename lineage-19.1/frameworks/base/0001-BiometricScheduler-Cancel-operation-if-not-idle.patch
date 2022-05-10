@@ -1,0 +1,30 @@
+From 23b72d5564716d65bb8b6a4a89dcd2d7de44f576 Mon Sep 17 00:00:00 2001
+From: SagarMakhar <sagarmakhar@gmail.com>
+Date: Fri, 8 Oct 2021 17:37:51 +0000
+Subject: [PATCH] BiometricScheduler: Cancel operation if not idle
+
+- some hals fail to report success/failure (for ex. realme fp hals)
+
+Signed-off-by: SagarMakhar <sagarmakhar@gmail.com>
+---
+ .../android/server/biometrics/sensors/BiometricScheduler.java | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/services/core/java/com/android/server/biometrics/sensors/BiometricScheduler.java b/services/core/java/com/android/server/biometrics/sensors/BiometricScheduler.java
+index a358bc2bad55..966c8eefc822 100644
+--- a/services/core/java/com/android/server/biometrics/sensors/BiometricScheduler.java
++++ b/services/core/java/com/android/server/biometrics/sensors/BiometricScheduler.java
+@@ -383,8 +383,8 @@ public class BiometricScheduler {
+ 
+     protected void startNextOperationIfIdle() {
+         if (mCurrentOperation != null) {
+-            Slog.v(getTag(), "Not idle, current operation: " + mCurrentOperation);
+-            return;
++            Slog.v(getTag(), "Not idle, cancelling current operation: " + mCurrentOperation);
++            cancelInternal(mCurrentOperation);
+         }
+         if (mPendingOperations.isEmpty()) {
+             Slog.d(getTag(), "No operations, returning to idle");
+-- 
+2.30.2
+
