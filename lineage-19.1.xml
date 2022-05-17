@@ -47,6 +47,11 @@
   <project path="device/xiaomi/Tiare" name="android_device_xiaomi_Tiare"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/Tiare" name="proprietary_vendor_xiaomi_Tiare" groups="device" remote="mi-thorium" revision="a11/master"/>
 
+ <!-- oxygen -->
+  <project path="kernel/xiaomi/oxygen" name="kernels"                                          remote="mi-thorium" revision="oxygen/a12/master"/>
+  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen"     groups="device" remote="mi-thorium"/>
+  <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" groups="device" remote="mi-thorium" revision="a11/master"/>
+
  <!-- uter -->
   <project path="kernel/xiaomi/uter" name="kernels"                                        remote="mi-thorium" revision="uter/a11/dev"/>
   <project path="device/xiaomi/uter" name="android_device_xiaomi_uter"     groups="device" remote="mi-thorium"/>
