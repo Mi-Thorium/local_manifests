@@ -46,12 +46,12 @@
   <project path="vendor/xiaomi/Tiare" name="proprietary_vendor_xiaomi_Tiare" groups="device" remote="mi-thorium"/>
 
  <!-- vince -->
-  <project path="kernel/xiaomi/vince" name="wip-k4.9"                                        remote="mi-msm8937" revision="mi8953-my"/>
+  <project path="kernel/xiaomi/vince" name="kernels"                                         remote="mi-thorium" revision="vince/a11/cringe"/>
   <project path="device/xiaomi/vince" name="android_device_xiaomi_vince"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/vince" name="proprietary_vendor_xiaomi_vince" groups="device" remote="mi-thorium"/>
 
  <!-- uter -->
-  <project path="kernel/xiaomi/uter" name="wip-k4.9"                                       remote="mi-msm8937" revision="uter"/>
+  <project path="kernel/xiaomi/uter" name="kernels"                                        remote="mi-thorium" revision="uter/a11/dev"/>
   <project path="device/xiaomi/uter" name="android_device_xiaomi_uter"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/uter" name="proprietary_vendor_xiaomi_uter" groups="device" remote="mi-thorium"/>
 
