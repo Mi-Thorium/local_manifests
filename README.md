@@ -18,11 +18,11 @@
 
 ## `Tiare` - Redmi Go (MSM8917)
 
-## `oxygen` - Mi MAX 2 (MSM8953) (**WIP**)
+## `oxygen` - Mi MAX 2 (MSM8953)
 
 ## `vince` - Redmi 5 Plus (MSM8953) (**WIP**)
 
-## `uter` - Xiaomi UTER (MSM8953) (**WIP**)
+## `uter` - Xiaomi UTER (MSM8953)
 
 # Notes
 - If you're going to build ROM which is supported here, Put the corresponding manifest file in `.repo/local_manifests`, re-run `repo sync`, and apply all the patches that's given in this repo.
