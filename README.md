@@ -8,7 +8,6 @@
 - Redmi 5A (`riva`)
 - Redmi Note 5A / Y1 Lite (`ugglite`)
 - Redmi Note 5A / Y1 Prime (`ugg`)
-- Redmi Go (`tiare`)
 
 ## `Mi439` (SDM439)
 - Xiaomi Redmi 7A (`pine`)
