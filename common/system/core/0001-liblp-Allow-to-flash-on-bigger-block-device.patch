@@ -1,0 +1,28 @@
+From 119b0b2b238b0f6bfc751cee8b391764260fd251 Mon Sep 17 00:00:00 2001
+From: me-cafebabe <me_cafebabe@hotmail.com>
+Date: Sat, 16 Jul 2022 20:10:52 +0000
+Subject: [PATCH] liblp: Allow to flash on bigger block device
+
+Change-Id: I2b4c05401569ce5fc301ebafa7d130c3b0d87c64
+---
+ fs_mgr/liblp/writer.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/fs_mgr/liblp/writer.cpp b/fs_mgr/liblp/writer.cpp
+index 2708efa156..7db0b787e4 100644
+--- a/fs_mgr/liblp/writer.cpp
++++ b/fs_mgr/liblp/writer.cpp
+@@ -138,8 +138,8 @@ static bool ValidateAndSerializeMetadata([[maybe_unused]] const IPartitionOpener
+             PERROR << partition_name << ": ioctl";
+             return false;
+         }
+-        if (info.size != block_device.size) {
+-            LERROR << "Block device " << partition_name << " size mismatch (expected"
++        if (info.size < block_device.size) {
++            LERROR << "Block device " << partition_name << " size is too small (expected"
+                    << block_device.size << ", got " << info.size << ")";
+             return false;
+         }
+-- 
+2.30.2
+
