@@ -13,7 +13,6 @@
            revision="a11/master" />
 
  <!-- Extras -->
-  <project path="ih8sn" name="ih8sn" remote="mi-msm8937" revision="master"/>
 
  <!-- Replacements -->
   <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
