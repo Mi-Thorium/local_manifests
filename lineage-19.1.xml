@@ -17,10 +17,6 @@
   <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
 
  <!-- Replacements -->
-  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/> -->
-  <!-- <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="mi-thorium" revision="lineage-19.1-caf-msm8953"/> -->
-  <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="mi-sdm439" revision="lineage-19.1-caf"/>
 
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>

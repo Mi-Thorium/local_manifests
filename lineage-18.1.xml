@@ -17,8 +17,6 @@
  <!-- Replacements -->
   <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/>
-  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/> -->
-  <!-- <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="mi-thorium" revision="lineage-18.1-caf-msm8953"/> -->
 
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>
