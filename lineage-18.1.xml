@@ -31,6 +31,9 @@
   <project path="hardware/mithorium-4.9"  name="android_hardware_mithorium-4.9"  groups="device" remote="mi-thorium" revision="lineage-18.1-k4.9"/>
   <project path="hardware/mithorium-4.19" name="android_hardware_mithorium-4.19" groups="device" remote="mi-thorium" revision="lineage-18.1-LA.UM.9.6.3.r1-06200-89xx.0"/>
 
+ <!-- MiThoriumSSI -->
+  <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium"/>
+
  <!-- Kernel for Mi8937 & Tiare -->
   <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a12/master"/>
 
