@@ -75,4 +75,8 @@
   <project path="device/xiaomi/uter" name="android_device_xiaomi_uter"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/uter" name="proprietary_vendor_xiaomi_uter" groups="device" remote="mi-thorium"/>
 
+ <!-- onc -->
+  <project path="device/xiaomi/onc" name="android_device_xiaomi_onc"     groups="device" remote="mi-thorium"/>
+  <project path="vendor/xiaomi/onc" name="proprietary_vendor_xiaomi_onc" groups="device" remote="mi-thorium"/>
+
 </manifest>
