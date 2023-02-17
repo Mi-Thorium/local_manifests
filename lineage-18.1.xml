@@ -21,6 +21,7 @@
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
+  <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- Common - Kernel 4.19 -->
   <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/>
@@ -28,6 +29,8 @@
  <!-- Hardware -->
   <project path="hardware/mithorium-4.9"  name="android_hardware_mithorium-4.9"  groups="device" remote="mi-thorium" revision="lineage-18.1-k4.9"/>
   <project path="hardware/mithorium-4.19" name="android_hardware_mithorium-4.19" groups="device" remote="mi-thorium" revision="lineage-18.1-LA.UM.9.6.3.r1-06200-89xx.0"/>
+  <project path="hardware/mithorium-4.9-q-display"  name="android_hardware_mithorium-4.9"  groups="device" remote="mi-thorium" revision="lineage-19.1-k4.9-q-display"/>
+  <project path="hardware/mithorium-4.19-q-display" name="android_hardware_mithorium-4.19" groups="device" remote="mi-thorium" revision="lineage-19.1-LA.UM.9.6.3.r1-06200-89xx.0-q-display"/>
 
  <!-- MiThoriumSSI -->
   <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium"/>
