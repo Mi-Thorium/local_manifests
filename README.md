@@ -23,7 +23,7 @@
 
 ## `uter` - Xiaomi UTER (MSM8953)
 
-## `onc` - Xiaomi Xiaomi Redmi Y3 / Xiaomi Redmi 7 (MSM8953) (**WIP**)
+## `onc` - Xiaomi Xiaomi Redmi Y3 / Xiaomi Redmi 7 (SDM632)
 
 # Notes
 - If you're going to build ROM which is supported here, Put the corresponding manifest file in `.repo/local_manifests`, re-run `repo sync`, and apply all the patches that's given in this repo.
