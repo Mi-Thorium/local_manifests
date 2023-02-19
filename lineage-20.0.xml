@@ -69,11 +69,9 @@
   <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- vince -->
-<!--
-  <project path="kernel/xiaomi/vince" name="kernels"                                         remote="mi-thorium" revision="vince/a12/master"/>
+  <project path="kernel/xiaomi/vince" name="kernels"                                         remote="mi-thorium" revision="vince/a13/master"/>
   <project path="device/xiaomi/vince" name="android_device_xiaomi_vince"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/vince" name="proprietary_vendor_xiaomi_vince" groups="device" remote="mi-thorium" revision="a11/master"/>
--->
+  <project path="vendor/xiaomi/vince" name="proprietary_vendor_xiaomi_vince" groups="device" remote="mi-thorium" revision="a13/master"/>
 
  <!-- uter -->
   <project path="kernel/xiaomi/uter" name="kernels"                                        remote="mi-thorium" revision="uter/a13/master"/>

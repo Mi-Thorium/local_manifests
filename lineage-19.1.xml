@@ -71,7 +71,7 @@
  <!-- vince -->
   <project path="kernel/xiaomi/vince" name="kernels"                                         remote="mi-thorium" revision="vince/a12/master"/>
   <project path="device/xiaomi/vince" name="android_device_xiaomi_vince"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/vince" name="proprietary_vendor_xiaomi_vince" groups="device" remote="mi-thorium" revision="a11/master"/>
+  <project path="vendor/xiaomi/vince" name="proprietary_vendor_xiaomi_vince" groups="device" remote="mi-thorium" revision="a12/master"/>
 
  <!-- uter -->
   <project path="kernel/xiaomi/uter" name="kernels"                                        remote="mi-thorium" revision="uter/a12/master"/>

@@ -19,7 +19,7 @@
 
 ## `oxygen` - Mi MAX 2 (MSM8953)
 
-## `vince` - Redmi 5 Plus (MSM8953) (**WIP**)
+## `vince` - Redmi 5 Plus (MSM8953)
 
 ## `uter` - Xiaomi UTER (MSM8953)
 
