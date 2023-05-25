@@ -35,9 +35,6 @@
  <!-- MiThoriumSSI -->
   <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium"/>
 
- <!-- Kernel for Mi8937 & Tiare -->
-  <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a12/master"/>
-
  <!-- Mi8937 -->
   <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium"/>
@@ -51,7 +48,6 @@
   <project path="vendor/xiaomi/Mi8937_4_19" name="proprietary_vendor_xiaomi_Mi8937"  groups="device" remote="mi-thorium" revision="k4.19/a11/master"/>
 
  <!-- Mi439 -->
-  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439"                    remote="mi-sdm439" revision="a12/main"/>
   <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium"/>
   <project path="vendor/miuicamera"    name="ArrowOS-Devices/android_vendor_miuicamera"       remote="github"    revision="arrow-11.0-a3"/>
