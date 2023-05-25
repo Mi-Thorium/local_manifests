@@ -69,17 +69,17 @@
   <project path="vendor/xiaomi/Tiare_4_19" name="proprietary_vendor_xiaomi_Tiare"  groups="device" remote="mi-thorium" revision="k4.19/a11/master"/>
 
  <!-- oxygen -->
-  <project path="kernel/xiaomi/oxygen" name="kernels"                                          remote="mi-thorium" revision="oxygen/a12/master"/>
+  <project path="kernel/xiaomi/oxygen" name="kernel_msm-4.9"                                   remote="mi-thorium" revision="oxygen/a12/master"/>
   <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" groups="device" remote="mi-thorium"/>
 
  <!-- vince -->
-  <project path="kernel/xiaomi/vince" name="kernels"                                         remote="mi-thorium" revision="vince/a12/master"/>
+  <project path="kernel/xiaomi/vince" name="kernel_msm-4.9"                                  remote="mi-thorium" revision="vince/a12/master"/>
   <project path="device/xiaomi/vince" name="android_device_xiaomi_vince"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/vince" name="proprietary_vendor_xiaomi_vince" groups="device" remote="mi-thorium"/>
 
  <!-- uter -->
-  <project path="kernel/xiaomi/uter" name="kernels"                                        remote="mi-thorium" revision="uter/a12/master"/>
+  <project path="kernel/xiaomi/uter" name="kernel_msm-4.9"                                 remote="mi-thorium" revision="uter/a12/master"/>
   <project path="device/xiaomi/uter" name="android_device_xiaomi_uter"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/uter" name="proprietary_vendor_xiaomi_uter" groups="device" remote="mi-thorium"/>
 
