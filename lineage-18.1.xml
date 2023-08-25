@@ -34,28 +34,28 @@
     <linkfile src="_Android.mk" dest="hardware/mithorium/Android.mk" />
     <linkfile src="mithorium_qcom_hals.mk" dest="hardware/mithorium/mithorium_qcom_hals.mk" />
 
-    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0/Android.bp" />
+    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0/Android.bp" />
     <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/lineage-18.1-caf-msm8953/Android.bp" />
     <linkfile src="guard-generic.bp" dest="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/Android.bp" />
 
-    <linkfile src="guard-qcom-qssi-display-lineage-18.1.bp" dest="hardware/mithorium/display/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0/Android.bp" />
-    <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0/Android.mk" />
+    <linkfile src="guard-qcom-qssi-display-lineage-18.1.bp" dest="hardware/mithorium/display/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0/Android.bp" />
+    <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0/Android.mk" />
 
     <linkfile src="guard-qcom-qssi-display-lineage-18.1.bp" dest="hardware/mithorium/display/lineage-18.1-caf-msm8953/Android.bp" />
     <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/lineage-18.1-caf-msm8953/Android.mk" />
   </project>
 
  <!-- Hardware - display-commonsys-intf -->
-  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
+  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
   <project path="hardware/mithorium/display/lineage-18.1-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
 
  <!-- Hardware - LA.UM.8.6.2 -->
   <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
 
  <!-- Hardware - LA.UM.9.6.3 -->
-  <project path="hardware/mithorium/audio/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0/hal" name="android_hardware_qcom_audio_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0"/>
-  <project path="hardware/mithorium/media/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0/hal" name="android_hardware_qcom_media_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0"/>
-  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05000-89xx.QSSI13.0"/>
+  <project path="hardware/mithorium/audio/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0/hal" name="android_hardware_qcom_audio_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0"/>
+  <project path="hardware/mithorium/media/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0/hal" name="android_hardware_qcom_media_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0"/>
+  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05100-89xx.QSSI13.0"/>
 
  <!-- Hardware - LineageOS (based on LA.UM.9.6.2.r1-04800-89xx.0 tag) -->
   <project path="hardware/mithorium/audio/lineage-18.1-caf-msm8953/hal" name="android_hardware_qcom_audio_mithorium" groups="device" remote="mi-thorium" revision="mithorium/lineage-18.1-caf-msm8953"/>
