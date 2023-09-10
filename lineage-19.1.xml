@@ -64,14 +64,12 @@
  <!-- Mi8937 -->
   <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a11/master"/>
-  <project path="vendor/xiaomi/Mi8937-2"      name="proprietary_vendor_xiaomi_Mi8937-2"  groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium" revision="sairam/a11/master"/>
   <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="device/xiaomi/prada-camera"  name="android_device_xiaomi_prada-camera"  groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- Mi8937 - Kernel 4.19 -->
   <project path="device/xiaomi/Mi8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
-  <project path="vendor/xiaomi/Mi8937_4_19" name="proprietary_vendor_xiaomi_Mi8937"  groups="device" remote="mi-thorium" revision="k4.19/a11/master"/>
 
  <!-- Mi439 -->
   <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="mi-thorium"/>
@@ -80,7 +78,6 @@
 
  <!-- Mi439 - Kernel 4.19 -->
   <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
-  <project path="vendor/xiaomi/Mi439_4_19" name="proprietary_vendor_xiaomi_Mi439"  groups="device" remote="mi-thorium" revision="k4.19/a11/master"/>
 
  <!-- Tiare -->
   <project path="device/xiaomi/Tiare" name="android_device_xiaomi_Tiare"     groups="device" remote="mi-thorium"/>
@@ -88,7 +85,6 @@
 
  <!-- Tiare - Kernel 4.19 -->
   <project path="device/xiaomi/Tiare_4_19" name="android_device_xiaomi_Tiare_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
-  <project path="vendor/xiaomi/Tiare_4_19" name="proprietary_vendor_xiaomi_Tiare"  groups="device" remote="mi-thorium" revision="k4.19/a11/master"/>
 
  <!-- oxygen -->
   <project path="kernel/xiaomi/oxygen" name="kernel_msm-4.9"                                   remote="mi-thorium" revision="oxygen/a12/master"/>
