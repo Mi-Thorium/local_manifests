@@ -12,7 +12,8 @@
            fetch="https://github.com/Mi-Thorium"
            revision="a11/master" />
 
- <!-- Extras -->
+ <!-- Dependencies -->
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="mi-thorium" revision="lineage-18.1"/>
 
  <!-- Replacements -->
   <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
