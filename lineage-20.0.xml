@@ -104,4 +104,11 @@
   <project path="device/xiaomi/onc" name="android_device_xiaomi_onc"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/onc" name="proprietary_vendor_xiaomi_onc" groups="device" remote="mi-thorium" revision="a11/master"/>
 
+ <!-- msm8937 -->
+  <project path="device/qualcomm/msm8937" name="android_device_qualcomm_msm8937"     groups="device" remote="mi-thorium"/>
+  <project path="vendor/qualcomm/msm8937" name="proprietary_vendor_qualcomm_msm8937" groups="device" remote="mi-thorium" revision="a11/master"/>
+
+ <!-- msm8937 - Kernel 4.19 -->
+  <project path="device/qualcomm/msm8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
+
 </manifest>
