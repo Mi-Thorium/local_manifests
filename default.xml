@@ -10,7 +10,7 @@
 
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
-           revision="a13/master" />
+           revision="a14/master" />
 
  <!-- Dependencies -->
 
@@ -47,7 +47,7 @@
  <!-- Hardware - LA.UM.8.6.2 -->
   <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
 
- <!-- Hardware - LA.UM.9.6.3 -->
+ <!-- Hardware - LA.UM.9.6.4 -->
   <project path="hardware/mithorium/audio/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/hal" name="android_hardware_qcom_audio_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0"/>
   <project path="hardware/mithorium/media/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/hal" name="android_hardware_qcom_media_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0"/>
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0"/>
@@ -61,7 +61,7 @@
 
  <!-- Mi8937 -->
   <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a13/master"/>
+  <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium"/>
   <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium" revision="sairam/a11/master"/>
   <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="device/xiaomi/prada-camera"  name="android_device_xiaomi_prada-camera"  groups="device" remote="mi-thorium" revision="a11/master"/>
@@ -71,7 +71,7 @@
 
  <!-- msm8937 -->
   <project path="device/qualcomm/msm8937" name="android_device_qualcomm_msm8937"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/qualcomm/msm8937" name="proprietary_vendor_qualcomm_msm8937" groups="device" remote="mi-thorium" revision="a11/master"/>
+  <project path="vendor/qualcomm/msm8937" name="proprietary_vendor_qualcomm_msm8937" groups="device" remote="mi-thorium" revision="a13/master"/>
 
  <!-- msm8937 - Kernel 4.19 -->
   <project path="device/qualcomm/msm8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
