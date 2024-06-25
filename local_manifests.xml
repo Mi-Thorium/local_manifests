@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mi-thorium"
+           fetch="https://github.com/Mi-Thorium"
+           revision="a14/master" />
+  <remote  name="phantom"
+           fetch="https://github.com/PhantomEnigma"
+           revision="a14/master" />
+  <!--
+  <remote  name="github"
+           fetch="https://github.com" />
+-->
+ <!-- Common -->
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
+  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
+  <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
+
+ <!-- Common - Kernel 4.19 -->
+  <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/>
+
+ <!-- Hardware -->
+  <project path="hardware/mithorium/common" name="android_hardware_mithorium_common" groups="device" remote="mi-thorium" revision="lineage">
+    <linkfile src="_Android.mk" dest="hardware/mithorium/Android.mk" />
+    <linkfile src="mithorium_qcom_hals.mk" dest="hardware/mithorium/mithorium_qcom_hals.mk" />
+
+    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/Android.bp" />
+    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/lineage-21.0-caf-msm8953/Android.bp" />
+    <linkfile src="guard-generic.bp" dest="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/Android.bp" />
+
+    <linkfile src="guard-qcom-qssi-display-lineage-19.1.bp" dest="hardware/mithorium/display/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/Android.bp" />
+    <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/Android.mk" />
+
+    <linkfile src="guard-qcom-qssi-display-lineage-19.1.bp" dest="hardware/mithorium/display/lineage-21.0-caf-msm8953/Android.bp" />
+    <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/lineage-21.0-caf-msm8953/Android.mk" />
+  </project>
+
+ <!-- Hardware - display-commonsys-intf -->
+  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="github" revision="lineage-21.0"/>
+  <project path="hardware/mithorium/display/lineage-21.0-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="github" revision="lineage-21.0"/>
+
+ <!-- Hardware - LA.UM.8.6.2 -->
+  <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
+
+ <!-- Hardware - LA.UM.9.6.3 -->
+  <project path="hardware/mithorium/audio/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/hal" name="android_hardware_qcom_audio_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0"/>
+  <project path="hardware/mithorium/media/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/hal" name="android_hardware_qcom_media_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0"/>
+  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0"/>
+
+ <!-- Mi439 -->
+  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="phantom"/>
+  <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium"/>
+
+ <!-- Mi439 - Kernel 4.19 -->
+  <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
+
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/master" remote="mi-thorium" >
+    <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
+  </project>
+
+  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="mi-thorium" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/vendor-legacy" />
+  </project>
+  <project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-msm8937" name="kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="mi-thorium" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/xiaomi-msm8937" />
+  </project>
+  <project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-sdm439" name="kernel_devicetree_xiaomi-sdm439" groups="dts" revision="dts/mi439/4.19/master" remote="mi-thorium" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/xiaomi-sdm439" />
+  </project>
+
+  </project>
+  <project path="kernel/xiaomi/mithorium-4.19/module/xiaomi-sdm439" name="kernel_techpack_xiaomi-sdm439" groups="module" revision="techpack/mi439/4.19/master" remote="mi-thorium" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/xiaomi-sdm439" />
+  </project>
+
+  <project path="kernel/xiaomi/mithorium-4.19/module/audio-legacy" name="kernel_techpack_audio-legacy" groups="module" revision="audio/4.19/mithorium/master" remote="mi-thorium">
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/audio-legacy" />
+  </project>
+  <project path="kernel/xiaomi/mithorium-4.19/module/camera-legacy" name="kernel_techpack_camera-legacy" groups="module" revision="camera/LA.UM.8.6.r1-05300-89xx.0/4.19/mithorium" remote="mi-thorium" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/camera-legacy" />
+  </project>
+  <project path="kernel/xiaomi/mithorium-4.19/module/camera-legacy-m" name="kernel_techpack_camera-legacy" groups="module" revision="camera/LA.UM.5.3-10610-89xx.0/4.19/mithorium" remote="mi-thorium" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/camera-legacy-m" />
+  </project>
+
+  <project path="kernel/xiaomi/mithorium-4.19/module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
+  </project>
+</manifest>
